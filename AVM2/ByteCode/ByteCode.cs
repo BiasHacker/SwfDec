@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +8,7 @@ using SwfDec.AVM2.ByteCode.Instructions.Cast;
 using SwfDec.AVM2.ByteCode.Instructions.Conditions;
 using SwfDec.AVM2.ByteCode.Instructions.Construct;
 using SwfDec.AVM2.ByteCode.Instructions.Create;
+using SwfDec.AVM2.ByteCode.Instructions.Debug;
 using SwfDec.AVM2.ByteCode.Instructions.Delete;
 using SwfDec.AVM2.ByteCode.Instructions.FastMemory;
 using SwfDec.AVM2.ByteCode.Instructions.Find;
@@ -20,10 +20,6 @@ using SwfDec.AVM2.ByteCode.Instructions.Push;
 using SwfDec.AVM2.ByteCode.Instructions.Return;
 using SwfDec.AVM2.ByteCode.Instructions.Set;
 using SwfDec.AVM2.ByteCode.Instructions.Type;
-using SwfDec.AVM2.Types;
-using SwfDec.AVM2.Types.Extended;
-using SwfDec.AVM2.Types.Multinames;
-using SwfDec.AVM2.Types.Traits;
 
 namespace SwfDec.AVM2.ByteCode
 {
